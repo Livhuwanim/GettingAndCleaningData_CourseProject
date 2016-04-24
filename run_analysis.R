@@ -110,6 +110,6 @@
 
  colnames(tidyData)<-c("activityName","subjectNo",tidyColNames)
 
-# Write the tidyData to a csv file
+# Write the tidyData to a text file
  
- write.table(tidyData,file="tidydata.csv",sep=",",row.names=FALSE)
+ write.table(tidyData,file="tidydata.txt",sep="\t",row.names=FALSE)
